@@ -1,0 +1,6 @@
+contamination,exceeds_tol,regime
+0.0,False,weak anisotropy-dominated
+0.0001,False,weak anisotropy-dominated
+0.001,False,weak anisotropy-dominated
+0.002,True,numerically unreliable
+0.01,True,numerically unreliable

@@ -1,0 +1,7 @@
+model,FLRW-like,anisotropy-dominated,matter-inhomogeneous,weak anisotropy-dominated,weak electric-Weyl-dominated,weak magnetic-Weyl-dominated,weak matter-inhomogeneous
+Bianchi-I,0,0,0,80,0,0,0
+FLRW,80,0,0,0,0,0,0
+GW-FLRW,0,0,0,0,19,21,0
+Kasner,0,80,0,0,0,0,0
+LTB,0,0,8,0,0,0,72
+Perturbed-FLRW,0,0,32,0,0,0,48

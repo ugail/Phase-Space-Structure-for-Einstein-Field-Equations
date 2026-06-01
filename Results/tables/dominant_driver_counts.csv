@@ -1,0 +1,7 @@
+model,I_B,I_E,I_rho,I_sigma,none
+Bianchi-I,0,0,0,80,0
+FLRW,0,0,0,0,80
+GW-FLRW,21,19,0,0,0
+Kasner,0,0,0,80,0
+LTB,0,0,80,0,0
+Perturbed-FLRW,0,0,80,0,0

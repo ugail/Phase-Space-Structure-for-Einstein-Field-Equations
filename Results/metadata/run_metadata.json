@@ -1,0 +1,46 @@
+{
+  "diagnostic_axes": [
+    "I_rho",
+    "I_theta",
+    "I_sigma",
+    "I_E",
+    "I_B",
+    "I_H",
+    "I_M"
+  ],
+  "derived": [
+    "Q_D",
+    "I_Q_derived"
+  ],
+  "reliability_tol": 0.001,
+  "departure_floor": 0.0001,
+  "weak_tol": 0.01,
+  "models": [
+    "Bianchi-I",
+    "FLRW",
+    "GW-FLRW",
+    "Kasner",
+    "LTB",
+    "Perturbed-FLRW"
+  ],
+  "benchmark_roles": {
+    "FLRW": "isotropic baseline",
+    "Bianchi-I": "homogeneous anisotropic, electric Weyl, I_B=0",
+    "Kasner": "vacuum anisotropic, electric Weyl, I_B=0 (vacuum normalisation)",
+    "LTB": "exact inhomogeneous electric-Weyl dust",
+    "Perturbed-FLRW": "constraint-consistent matter inhomogeneity (I_H,I_M at round-off)",
+    "GW-FLRW": "radiative electric/magnetic Weyl; exercises I_B>0"
+  },
+  "notes": [
+    "Weyl split into electric/magnetic; C^2=8(E^2-B^2).",
+    "Unified curvature normalisation K_D=<theta^4>_D+eps used for all benchmarks.",
+    "Axes are non-redundant (no derived Buchert axis), not dynamically independent.",
+    "I_B nonzero only for the tensor (GW) benchmark; zero (round-off) for all others.",
+    "GW electric/magnetic comparability: E^2~B^2, C^2 suppressed; I_B>0.",
+    "Observer-tilt (LTB): dominant axis stays I_rho, I_B stays 0 up to v0=0.1.",
+    "Q_D retained as derived; |Q_D|/<theta>^2 fixed by I_theta,I_sigma (verified ~1e-15).",
+    "Bianchi-I and LTB Weyl scalars verified symbolically vs the metric.",
+    "Regime separability reported via supervised metrics + PCA; unsupervised k-means not used as a headline (early-time trajectories converge to the FLRW point).",
+    "Szekeres (electric, non-symmetric) deferred; its Weyl scalar to be verified before inclusion."
+  ]
+}

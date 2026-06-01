@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "phase-space-efe"
+version = "1.0.0"
+description = "Geometric phase-space structure in cosmological solutions of Einstein's field equations."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Hassan Ugail" }]
+keywords = [
+    "general-relativity", "cosmology", "inhomogeneous-cosmology", "weyl-curvature",
+    "cosmological-backreaction", "exact-solutions", "numerical-relativity", "diagnostics",
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Physics",
+]
+dependencies = [
+    "numpy>=1.23",
+    "scipy>=1.9",
+    "pandas>=1.5",
+    "matplotlib>=3.6",
+    "sympy>=1.11",
+    "scikit-learn>=1.1",
+]
+
+[project.optional-dependencies]
+verify = ["numpy>=1.23", "pandas>=1.5"]
+test = ["pytest>=7.0"]
+
+[project.scripts]
+psefe-run = "phase_space_efe.pipeline:run"
+
+[tool.setuptools]
+packages = ["phase_space_efe"]
