@@ -8,6 +8,9 @@ Relativistic cosmological models can depart from the Friedmann-Lemaitre-Robertso
 
 namely matter inhomogeneity, expansion inhomogeneity, shear, the electric and magnetic Weyl parts, and two reliability indicators built from the Hamiltonian and momentum constraints. Solution families are then compared as points and trajectories in one diagnostic space. The framework is observer-explicit and domain-explicit. It is a transparent diagnostic, not a new invariant classification of spacetime.
 
+<img width="2015" height="1384" alt="component_I_E_over_time" src="https://github.com/user-attachments/assets/8c45ecb1-85d8-45f9-8148-385952236ca4" />
+
+
 ## What does this measure?
 
 We reproduce, across the six benchmark families, the following.
