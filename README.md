@@ -1,6 +1,6 @@
 # Geometric Phase-Space Structure in Cosmological Solutions of Einstein's Field Equations
 
-*Geometric Phase-Space Structure in Cosmological Solutions of Einstein's Field Equations*, by H. Ugail.
+*Geometric Phase-Space Structure in Cosmological Solutions of Einstein's Field Equations*
 
 Cite: Ugail, H. (2026). Geometric Phase-Space Structure in Cosmological Solutions of Einstein's Field Equations. ArXiv. https://arxiv.org/abs/2606.1707
 
