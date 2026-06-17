@@ -2,6 +2,8 @@
 
 *Geometric Phase-Space Structure in Cosmological Solutions of Einstein's Field Equations*, by H. Ugail.
 
+Cite: Ugail, H. (2026). Geometric Phase-Space Structure in Cosmological Solutions of Einstein's Field Equations. ArXiv. https://arxiv.org/abs/2606.1707
+
 Relativistic cosmological models can depart from the Friedmann-Lemaitre-Robertson-Walker (FLRW) idealisation in more than one way. Matter can become inhomogeneous, the local expansion rate can vary from place to place, the expansion can turn anisotropic, and the free gravitational field can develop electric or magnetic Weyl curvature. A single departure-from-FLRW number cannot say which of these is at work. **This is an open-source toolkit that organises standard kinematic, curvature, and constraint quantities into a compact, non-redundant set of dimensionless diagnostics with an explicit electric and magnetic Weyl split.** For a chosen observer field and averaging domain it reports the diagnostic vector
 
     X_cosmo = (I_rho, I_theta, I_sigma, I_E, I_B, I_H, I_M),
@@ -120,7 +122,7 @@ All Weyl axes use a single unified curvature normalisation `K_D = <theta^4>_D + 
 
 If you use this toolkit or the precomputed result tables, please cite the paper:
 
-> H. Ugail. *Geometric Phase-Space Structure in Cosmological Solutions of Einstein's Field Equations*. Under review.
+> Ugail, H. (2026). Geometric Phase-Space Structure in Cosmological Solutions of Einstein's Field Equations. ArXiv. https://arxiv.org/abs/2606.1707
 
 A related methodological idea, measuring the preservation or loss of theoretically meaningful structure rather than relying on a single generic score, appears in:
 
